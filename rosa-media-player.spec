@@ -9,7 +9,7 @@ Url:		https://abf.rosalinux.ru/uxteam/ROSA_Media_Player/tree/develop
 Source:		https://abf.rosalinux.ru/import/%{name}/raw/rosa2012lts/%{name}-%{version}-1.5.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
-BuildRequires:	qt-devel >= 4.2.0
+BuildRequires:	qt4-devel >= 4.2.0
 BuildRequires:  wildmidi-devel
 BuildRequires:	alsa-lib-devel
 
