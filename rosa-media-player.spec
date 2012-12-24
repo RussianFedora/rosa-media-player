@@ -1,6 +1,6 @@
 Summary:	Multimedia player based on mplayer technology
 Name:		rosa-media-player
-Version:	1.5
+Version:	1.5.1
 Release:	1%{?dist}
 
 License:	GPLv2+
@@ -12,6 +12,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires:	qt4-devel >= 4.2.0
 BuildRequires:  wildmidi-devel
 BuildRequires:	alsa-lib-devel
+BuildRequires:	qjson-devel
 
 Requires:	mplayer	>= 1.0
 Requires:	mencoder
@@ -87,5 +88,8 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon Dec 24 2012 Arkady L. Shane <ashejn@russianfedora.ru> 1.5.1-1.R
+- update to 1.5.1
+
 * Fri Jul 27 2012 Arkady L. Shane <ashejn@russianfedora.ru> 1.5-1.R
 - initial build
